@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mipa.learnandroidfundamentals">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".coroutines.retrofit.TryRetrofit" />
+        <activity android:name=".coroutines.fiebase_firestore.FirebaseFirestore" />
+        <activity android:name=".coroutines.scopes.CoroutinesSecondActivity" />
+        <activity android:name=".coroutines.scopes.CoroutinesScopes" />
+        <activity android:name=".coroutines.CoroutinesMain" />
+        <activity android:name=".broadcast.Broadcast" />
+        <activity android:name=".drag_drop.DragDrop" />
+        <activity android:name=".services.LrnService" />
+        <activity android:name=".services.intent_service.LrnIntentService" />
+        <activity android:name=".notifications.Notification" />
+        <activity android:name=".shared_preferences.SaveData" />
+        <activity android:name=".view_pager.ViewPager" />
+        <activity android:name=".bottom_navigation_menu.BottomNavMenu" />
+        <activity android:name=".fragments.Fragments" />
+        <activity android:name=".RecView.RecView" />
+        <activity android:name=".Spinner" />
+        <activity android:name=".Alerts" />
+        <activity android:name=".ImplicitIntents" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".slidable_menu.SlidableMenu" />
+        <activity android:name=".manual_creation.UIFromCode" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".services.intent_service.MyIntentService" />
+        <service android:name=".services.MyService" />
+    </application>
+
+</manifest>

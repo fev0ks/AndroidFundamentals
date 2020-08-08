@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "862126818968",
+    "firebase_url": "https://lrn-coroutines.firebaseio.com",
+    "project_id": "lrn-coroutines",
+    "storage_bucket": "lrn-coroutines.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862126818968:android:44c3a83db0b9fdeb68f2ed",
+        "android_client_info": {
+          "package_name": "com.mipa.learnandroidfundamentals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862126818968-jdmg6lfn26u3ob3pjdcoba1ap11pf0g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFAv0K4pRtjB7WMZc6YulJLA_P_33yTIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862126818968-jdmg6lfn26u3ob3pjdcoba1ap11pf0g6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
